@@ -8,11 +8,11 @@ setup(
     long_description="""
 Parser for ISC configuration files, such as ``dhcpd.conf`` or ``named.conf``.
     """,
-    version='1.0.1',
-    license='BSD',
-    url='https://bitbucket.org/thesheep/iscconf/',
+    version='1.0.2',
+    license='GNU',
+    url='https://github.com/markraub/iscconf',
     keywords='isc parser config configuration',
     packages=['iscconf'],
-    install_requires=['distribute', 'ply'],
+    install_requires=['ply'],
     platforms='any',
 )
